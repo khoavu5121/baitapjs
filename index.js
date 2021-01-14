@@ -77,13 +77,3 @@ console.log(findMinArr(sum2));
 
 // Bài 8.Viết function truyền vào 1 chuỗi bất kỳ, có tác dụng sao chép đó chuỗi lên 10 lần
 
-function repeatString(arr) {
-  let sum = arr[0];
-  let result = "";
-  for (let i = 0; i < 10; i++) {
-    result = `${sum}`;
-  }
-  return result.splice(0,0,10);
-}
-let num1 = [12];
-console.log(repeatString(num1));
